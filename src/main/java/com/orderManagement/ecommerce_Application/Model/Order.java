@@ -1,4 +1,4 @@
-package com.orderManagement.ecommerce_Application;
+package com.orderManagement.ecommerce_Application.Model;
 import jakarta.persistence.*;
 import lombok.Data;
 

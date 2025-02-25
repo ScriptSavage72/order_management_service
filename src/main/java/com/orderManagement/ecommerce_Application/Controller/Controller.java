@@ -1,5 +1,7 @@
-package com.orderManagement.ecommerce_Application;
+package com.orderManagement.ecommerce_Application.Controller;
 
+import com.orderManagement.ecommerce_Application.Model.Order;
+import com.orderManagement.ecommerce_Application.Repository.Service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

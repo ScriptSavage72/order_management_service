@@ -1,7 +1,8 @@
-package com.orderManagement.ecommerce_Application;
+package com.orderManagement.ecommerce_Application.Service;
 
+import com.orderManagement.ecommerce_Application.Model.Order;
+import com.orderManagement.ecommerce_Application.Repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,7 +20,7 @@ public class OrderService {
     }
 
     public Order getOrderById(Long id){
-        return orderRepository.findById(id).orElse(null)
+        return orderRepository.findById(id).orElse(null);
     }
 
     public void deleteOrder(Long id){

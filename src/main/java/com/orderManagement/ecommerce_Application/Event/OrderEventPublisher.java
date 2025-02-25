@@ -1,4 +1,4 @@
-package com.orderManagement.ecommerce_Application;
+package com.orderManagement.ecommerce_Application.Event;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
