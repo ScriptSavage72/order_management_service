@@ -1,4 +1,4 @@
-package com.orderManagement.ecommerce_Application.Repository.Service;
+package com.orderManagement.ecommerce_Application.Service;
 
 import com.orderManagement.ecommerce_Application.Model.Order;
 import com.orderManagement.ecommerce_Application.Repository.OrderRepository;
